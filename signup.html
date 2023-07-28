@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="imgs/bookmark.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>LogIN</title>
+  </head>
+  <body>
+    <div id="signUpPage">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-8">
+            <div class="logInWindow">
+              <h1>Smart Login System</h1>
+              <input
+                id="yourNameInp"
+                class="form-control my-3"
+                placeholder="Enter your name"
+                type="text"
+              />
+              <input
+                id="yourEmailInp"
+                class="form-control my-3"
+                placeholder="Enter your email"
+                type="email"
+              />
+              <div class="msgMail d-none w-100 justify-content-start">
+                <span class="text-danger">
+                  <i
+                    class="fa-solid fa-circle me-1"
+                    style="font-size: 0.5rem"
+                  ></i
+                  >must end with ".com"
+                  <br />
+                  <i
+                    class="fa-solid fa-circle me-1"
+                    style="font-size: 0.5rem"
+                  ></i
+                  >must contain "@"
+                </span>
+              </div>
+              <input
+                id="yourPasswordInp"
+                class="form-control my-3"
+                placeholder="Enter password"
+                type="password"
+              />
+              <div class="msgPass d-none w-100 justify-content-start">
+                <span class="text-danger">
+                  <i
+                    class="fa-solid fa-circle me-1"
+                    style="font-size: 0.5rem"
+                  ></i
+                  >At least 6 characters(letters and numbers)
+                  <br />
+                  <i
+                    class="fa-solid fa-circle me-1"
+                    style="font-size: 0.5rem"
+                  ></i
+                  >at least one uppercase letter & lowercase letter
+                </span>
+              </div>
+              <div class="msgSuc d-none justify-content-center text-success">
+                Sign Up Success Please go to Sign in
+              </div>
+              <button
+                class="btn btn-outline-info w-100 my-3"
+                onclick="signUp()"
+              >
+                Sign Up
+              </button>
+              <h5>
+                You have an account?<button
+                  style="
+                    background-color: transparent;
+                    border: none;
+                    color: white;
+                  "
+                >
+                  Signin
+                </button>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="JS/signup.js"></script>
+  </body>
+</html>

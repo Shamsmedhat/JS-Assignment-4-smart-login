@@ -1,0 +1,44 @@
+body {
+  background-color: #24353f;
+}
+
+.logInWindow {
+  background-color: #24353f;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  margin: 5rem auto;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.logInWindow h1 {
+  color: #17a2b8;
+  margin-top: 1rem;
+}
+
+.logInWindow input {
+  background-color: transparent;
+  border: 1px solid #ced4da;
+}
+
+.logInWindow h5,
+.logInWindow h5 a {
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  padding-left: 0.5rem;
+}
+
+#HomePage .myNav {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.myNav .row .col-12 ul li {
+  list-style: none;
+  padding: 1rem;
+}
+
+.myNav .row .col-12 button {
+  padding: 0.5rem 1rem;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="imgs/bookmark.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>LogIN</title>
+  </head>
+  <body>
+    <div id="loginPage">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-8">
+            <div class="logInWindow">
+              <h1>Smart Login System</h1>
+              <input
+                id="enterEmailInp"
+                class="form-control my-3"
+                placeholder="Enter your email"
+                type="email"
+              />
+              <input
+                id="enterPasswordInp"
+                class="form-control my-3"
+                placeholder="Enter your password"
+                type="password"
+              />
+              <span class="warningMsg fs-4 text-danger"></span>
+              <button class="logInBtn btn btn-outline-info w-100 my-3">
+                Login
+              </button>
+              <h5>Don’t have an account?<a href="signup.html">Sign Up</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="JS/index.js"></script>
+  </body>
+</html>
